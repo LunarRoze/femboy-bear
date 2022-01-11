@@ -1,9 +1,8 @@
-const { Plugin } = require('powercord/entities');
-
 module.exports = class Text extends Plugin {
   startPlugin () {
     this.registerCommand(
-      'femboybear',
+      'text',
+      ['guide'],
       'funny',
       '{c}',
       (args) => ({
