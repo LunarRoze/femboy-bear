@@ -1,4 +1,5 @@
 const { Plugin } = require("powercord/entities");
+const { channels, messages } = require("powercord/webpack");
 
 module.exports = class PluginName extends Plugin {
   startPlugin() {
