@@ -4,6 +4,7 @@ module.exports = class Text extends Plugin {
   startPlugin () {
     this.registerCommand(
       'femboybear',
+      'funny',
       '{c}',
       (args) => ({
         send: true,
